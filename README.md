@@ -42,7 +42,7 @@ Our collection features 4 classic arcade games:
    ```
    
    Or download the ZIP file:
-   - Navigate to the GitHub repository main page
+   - Navigate to the [GitHub](https://github.com/RRR-STAR/Games) repository main page
    - Click the **Code** dropdown button
    - Select **Download ZIP**
    - Extract the downloaded file

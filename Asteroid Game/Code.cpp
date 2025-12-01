@@ -268,7 +268,7 @@ namespace Asteroid {
         window.setFramerateLimit(120);
         loadInitialImage(imgStartUp, window); // load the initial image for the game
         
-        std::array<Sprite, 4>       background;
+        std::vector<Sprite>         background(4);
         background[0].setTexture    (imgBack);
         background[1].setTexture    (imgBack2);
         background[2].setTexture    (imgBack3);
@@ -712,7 +712,7 @@ namespace Asteroid {
 }
 
 
-main(){
+int main(){
     try { 
         Asteroid::Main(); 
     }

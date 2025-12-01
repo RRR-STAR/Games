@@ -3,8 +3,8 @@
  */
 
 #include <SFML/Graphics.hpp>
-#include <vector>
 #include <random>
+#include <vector>
 using namespace sf;
 
 bool startupsLoaded = false; // a global var to load the startup items only once

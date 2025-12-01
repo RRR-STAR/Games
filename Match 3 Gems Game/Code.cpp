@@ -4,6 +4,7 @@
 */
 
 #include <SFML/Graphics.hpp>
+#include <array>
 #include <random>
 #include <fstream>
 
@@ -41,7 +42,7 @@ void gameMessage(sf::String &&, short int &&, sf::Texture &, sf::RenderWindow &)
 bool initialMessagePrinted = false;
 
 
-main(){
+int main(){
     using namespace sf;
     
     // for generate random numbers in each run

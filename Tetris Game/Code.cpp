@@ -3,6 +3,7 @@
  */
 
 #include <SFML/Graphics.hpp>
+#include <array>
 #include <fstream>
 
 bool startUpsLoaded = false, initialMessagePrinted = false; // a global var to share messages between functions
@@ -175,7 +176,7 @@ constexpr bool anyTilesCoordinateGoOutofWindow(auto &tiles, auto &gameGrid){
 }
 
 
-main(){
+int main(){
     using namespace sf;
     /*
     *        0     1

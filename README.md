@@ -20,7 +20,7 @@ Our collection features 4 classic arcade games:
 ### Windows Installation
 
 1. **Download the repository:**
-   - Navigate to the GitHub repository main page
+   - Navigate to the GitHub repository main page [GitHub](https://github.com/RRR-STAR/Games)
    - Click the **Code** dropdown button
    - Select **Download ZIP**
 
